@@ -1,0 +1,107 @@
+<div class="alert alert-success" role="alert" *ngIf="Aprovado">
+  A simple success alert—check it out!
+</div>
+<div class="alert alert-danger" role="alert" *ngIf="!Aprovado">
+  A simple danger alert—check it out!
+</div>
+
+<div
+  class="row d-flex justify-content-center align-items-center text-white pt-4"
+>
+  <h1>Calcular Média</h1>
+</div>
+<div
+  class="row d-flex justify-content-center align-items-center pt-5 position-relative"
+>
+  <div class="card shadow">
+    <form class="m-3">
+      <div class="col-auto pt-3">
+        <label class="sr-only" for="inlineFormInputGroup">RMA</label>
+        <div class="input-group mb-2">
+          <div class="input-group-prepend">
+            <div class="input-group-text">RMA</div>
+          </div>
+          <input
+            type="number"
+            class="form-control"
+            id="inlineFormInputGroup"
+            placeholder="Insira o RMA"
+          />
+        </div>
+      </div>
+      <div class="col-auto pt-3">
+        <label class="sr-only" for="inlineFormInputGroup">Nome:</label>
+        <div class="input-group mb-2">
+          <div class="input-group-prepend">
+            <div class="input-group-text">Nome</div>
+          </div>
+          <input
+            type="text"
+            class="form-control"
+            id="inlineFormInputGroup"
+            placeholder="Insira o Nome do Aluno"
+          />
+        </div>
+      </div>
+      <div class="col-auto pt-3">
+        <label class="sr-only" for="inlineFormInputGroup">Nota 1:</label>
+        <div class="input-group mb-2">
+          <div class="input-group-prepend">
+            <div class="input-group-text">Nota 1</div>
+          </div>
+          <input
+            type="number"
+            class="form-control"
+            id="inlineFormInputGroup"
+            placeholder="Insira a 1º Nota"
+          />
+        </div>
+      </div>
+      <div class="col-auto pt-3">
+        <label class="sr-only" for="inlineFormInputGroup">Nota 2</label>
+        <div class="input-group mb-2">
+          <div class="input-group-prepend">
+            <div class="input-group-text">Nota 2</div>
+          </div>
+          <input
+            type="number"
+            class="form-control"
+            id="inlineFormInputGroup"
+            placeholder="Insira a 2º Nota"
+          />
+        </div>
+      </div>
+      <div class="col-auto pt-3">
+        <label class="sr-only" for="inlineFormInputGroup">Nota 3</label>
+        <div class="input-group mb-2">
+          <div class="input-group-prepend">
+            <div class="input-group-text">Nota 3</div>
+          </div>
+          <input
+            type="number"
+            class="form-control"
+            id="inlineFormInputGroup"
+            placeholder="Insira a 3º Nota"
+          />
+        </div>
+      </div>
+      <div class="col-auto pt-3">
+        <label class="sr-only" for="inlineFormInputGroup">Nota 4</label>
+        <div class="input-group mb-2">
+          <div class="input-group-prepend">
+            <div class="input-group-text">Nota 4</div>
+          </div>
+          <input
+            type="number"
+            class="form-control"
+            id="inlineFormInputGroup"
+            placeholder="Insira a 4º Nota"
+          />
+        </div>
+      </div>
+      <div class="col-auto pt-3">
+        <button type="submit" class="btn btn-primary w-100">Calcular</button>
+      </div>
+    </form>
+  </div>
+</div>
