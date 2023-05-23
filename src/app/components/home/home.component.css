@@ -23,4 +23,5 @@
   border: none;
   box-sizing: border-box;
   width: 75px;
+  justify-content: center;
 }
